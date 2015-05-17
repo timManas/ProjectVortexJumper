@@ -8,5 +8,5 @@ Main objective of the game is to avoid reb bombs while collecting the yellow bom
 
 
 Special Thanks***
-Music was generously provided by BEN SOUND [http://www.bensound.com/] and BXFR. 
+Music is owned and provided by BEN SOUND [http://www.bensound.com/] and BXFR. 
 Please contact Ben Sound to use their music on your app. 
