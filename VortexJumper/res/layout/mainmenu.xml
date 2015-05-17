@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenubg_rev3"
+    tools:ignore="MergeRootFrame" >
+
+    <ImageView
+        android:id="@+id/ivGameLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/vortexjumperlogo" />
+    
+    <ImageButton
+        android:id="@+id/ibNewGame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ivGameLogo"
+        android:layout_alignStart="@+id/ivGameLogo"
+        android:layout_alignLeft="@+id/ivGameLogo"
+     	android:layout_alignRight="@+id/ivGameLogo"
+     	android:layout_alignEnd="@+id/ivGameLogo"
+        android:background="@drawable/newstartbutton" />
+    
+    <ImageButton
+        android:id="@+id/ibOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/ivGameLogo"
+        android:layout_alignLeft="@+id/ivGameLogo"
+        android:layout_alignRight="@+id/ivGameLogo"
+        android:layout_alignEnd="@+id/ivGameLogo"
+        android:layout_below="@+id/ivGameLogo"
+        android:background="@drawable/newcreditsbutton" />
+
+</RelativeLayout>
